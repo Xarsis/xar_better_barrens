@@ -1,34 +1,34 @@
 [
   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysium",
-    "value": {
-      "baseImages": "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysium",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]
     }
   },
   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysiumsnow",
-    "value": {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysiumsnow",
+    "value" : {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/snow_<selector>.png",
       "maskPerPlanetRange" : [0, 0]
     }
   },
   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysiummidnight",
-    "value": {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysiummidnight",
+    "value" : {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/midnight_<selector>.png",
       "maskPerPlanetRange" : [3, 3]
     }
   },
-   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysiumscorchedcity",
-    "value": {
+  {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysiumscorchedcity",
+    "value" : {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/scorchedcity_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
       "maskRange" : [1, 25],
@@ -36,9 +36,9 @@
     }
   },
   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysiumvolcanic",
-    "value": {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysiumvolcanic",
+    "value" : {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/volcanic_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
       "maskRange" : [1, 25],
@@ -46,9 +46,9 @@
     }
   },
   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysiumocean",
-    "value": {
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysiumocean",
+    "value" : {
       "baseImages" : "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
       "maskRange" : [1, 25],
@@ -56,21 +56,19 @@
     }
   },
   {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/elysiumearth",
-    "value": {
-      "baseImages": "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+    "op" : "add",
+    "path" : "/terrestrialHorizonGraphics/elysiumearth",
+    "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
       "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
       "maskRange" : [1, 25],
       "maskPerPlanetRange" : [3, 3]
     }
   },  
-  
-  
   {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysium",
-	"value":{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 30],
@@ -80,8 +78,7 @@
   {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysiumsnow",
-	"value" : 
-	{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/snow/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange" : [1, 50],
@@ -91,20 +88,17 @@
   {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysiummidnight",
-	"value" :
-	{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/midnight/maskie<num>.png",
       "liquidImages" : "",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange" : [1, 30]
 	}
   },
-  
-   {
+  {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysiumscorchedcity",
-	"value" :
-	{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/scorchedcity/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 30]
@@ -113,8 +107,7 @@
   {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysiumearth",
-	"value" :
-	{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 30],
@@ -124,8 +117,7 @@
   {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysiumocean",
-	"value" :
-	{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/ocean/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
       "dynamicsRange" : [1, 20]
@@ -134,429 +126,112 @@
   {
     "op" : "add",
     "path" : "/terrestrialGraphics/elysiumvolcanic",
-	"value" :
-	{
+	"value" : {
       "baseImages" : "/celestial/system/terrestrial/biomes/volcanic/maskie<num>.png",
       "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
       "dynamicsRange" : [1, 30]
 	}
   },
-  
-  
-  
-  
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysium"
-    }
-  },
-    {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumsnow"
+    "op" : "add",
+    "path" : "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiummidnight"
-    }
-	
-  },
-  {
-     "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumearth"
+    "op" : "add",
+    "path" : "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumocean"
+    "op" : "add",
+    "path" : "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumscorchedcity"
+    "op" : "add",
+    "path" : "/systemTypes/Orange/orbitRegions/0/planetaryTypes/3",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/0/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumvolcanic"
-    }
-  },
-   
-  
-  
-  
-  
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysium"
+    "op" : "add",
+    "path" : "/systemTypes/Orange/orbitRegions/1/planetaryTypes/2",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumsnow"
+    "op" : "add",
+    "path" : "/systemTypes/Orange/orbitRegions/2/planetaryTypes/3",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiummidnight"
-    }
-  },
-
-
-  {
-     "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumearth"
+    "op" : "add",
+    "path" : "/systemTypes/Yellow/orbitRegions/0/planetaryTypes/4",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumocean"
+    "op" : "add",
+    "path" : "/systemTypes/Yellow/orbitRegions/1/planetaryTypes/2",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumscorchedcity"
+    "op" : "add",
+    "path" : "/systemTypes/Yellow/orbitRegions/2/planetaryTypes/4",
+    "value" : {
+      "weight" : 0.04,
+      "item" : "Elysium"
     }
   },
   {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/1/planetaryTypes/2",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumvolcanic"
-    }
-  },
-
-
-  
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysium"
-    }
-  },
-  
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumsnow"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiummidnight"
-    }
-  },
-
-  {
-     "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumearth"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumocean"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumscorchedcity"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/systemTypes/White/orbitRegions/2/planetaryTypes/3",
-    "value": {
-      "weight": 0.04,
-      "item": "elysiumvolcanic"
-    }
-  },
-
-  
-  {
-    "op": "add",
-    "path": "/planetaryTypes/elysium",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "An elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": ["elysium"]
+    "op" : "add",
+    "path" : "/planetaryTypes/Elysium",
+    "value" : {
+      "satelliteProbability" : 0,
+      "baseParameters" : {
+        "worldType" : "Terrestrial",
+        "description" : "Elysium World",
+        "smallImage" : "/celestial/system/planet_small.png",
+        "terrestrialType" : [ "elysium", "elysiumsnow", "elysiummidnight", "elysiumearth", "elysiumscorchedcity", "elysiumocean", "elysiumvolcanic" ]
       },
-      "variationParameters": [
+      "variationParameters" : [
         {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
+          "imageScale" : 0.075,
+          "smallImageScale" : 0.4,
+          "worldSize" : "small"
         },
         {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
+          "imageScale" : 0.1,
+          "smallImageScale" : 0.5,
+          "worldSize" : "medium"
         },
         {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
+          "imageScale" : 0.15,
+          "smallImageScale" : 0.6,
+          "worldSize" : "large"
         }
       ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/planetaryTypes/elysiumsnow",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "A cold elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": [
-          "elysiumsnow"
-        ]
-      },
-      "variationParameters": [
-        {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
-        },
-        {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
-        },
-        {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
-        }
-      ]
-    }
-  },
- {
-    "op": "add",
-    "path": "/planetaryTypes/elysiummidnight",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "A dark elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": [
-          "elysiummidnight"
-        ]
-      },
-      "variationParameters": [
-        {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
-        },
-        {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
-        },
-        {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
-        }
-      ] 
-    }
-  },
-  
-  
-  
-  
-   {
-    "op": "add",
-    "path": "/planetaryTypes/elysiumearth",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "An inhabited elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": [
-          "elysiumearth"
-        ]
-      },
-      "variationParameters": [
-        {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
-        },
-        {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
-        },
-        {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
-        }
-      ] 
-    }
-  },
-   {
-    "op": "add",
-    "path": "/planetaryTypes/elysiumscorchedcity",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "A deserted elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": [
-          "elysiumscorchedcity"
-        ]
-      },
-      "variationParameters": [
-        {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
-        },
-        {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
-        },
-        {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
-        }
-      ] 
-    }
-  },
-   {
-    "op": "add",
-    "path": "/planetaryTypes/elysiumocean",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "A wet elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": [
-          "elysiumocean"
-        ]
-      },
-      "variationParameters": [
-        {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
-        },
-        {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
-        },
-        {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
-        }
-      ] 
-    }
-  },
-   {
-    "op": "add",
-    "path": "/planetaryTypes/elysiumvolcanic",
-    "value": {
-      "satelliteProbability": 0,
-      "baseParameters": {
-        "worldType": "Terrestrial",
-        "description": "A hot elysium world.",
-        "smallImage": "/celestial/system/planet_small.png",
-        "terrestrialType": [
-          "elysiumvolcanic"
-        ]
-      },
-      "variationParameters": [
-        {
-          "imageScale": 0.075,
-          "smallImageScale": 0.4,
-          "worldSize": "small"
-        },
-        {
-          "imageScale": 0.1,
-          "smallImageScale": 0.5,
-          "worldSize": "medium"
-        },
-        {
-          "imageScale": 0.15,
-          "smallImageScale": 0.6,
-          "worldSize": "large"
-        }
-      ] 
     }
   }
-  
-  
-  
-  
-  
 ]

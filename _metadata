@@ -1,9 +1,7 @@
 {
-  "author" : "Amber Talamasca",
-  "description" : "Those barren planets are great to build a homebase on.. not bothered by pesky monsters, or riddled with pre-rendered trees.\n\nIf it weren't for the fact that the blocks are all dry and you need to replace the dry dirt with normal dirt if you want to garden, or plant trees\nThere is no weather to water the plants for you, you better get real skilled with that watering can.\nThere is constant wind sounds and the background looks.. well, rather barren.\n\nThis mod fixes all that.\nThe sounds are replaced with garden sounds. Mud, dirt and cobblestone make up the planet now, and the backdrop is replaced with a lush landscape.\nThe weather is set to the same weather as the lush planets you start on.\n\nThis mod will not changed planets that have already been generated, it will only work on newly discovered planets.\n\n1.1 update notes:\n----- Now plays nice with Frackin Universe -----\nMy barren worlds no longer replace the old barren worlds. They are now a new type of Barren, dubbed \"Elysium\" worlds.\nThere are three types of Elysium worlds around, all can be found around Gentle Stars.\nThere are Elysium Garden, Snow and Midnight worlds.\n\nPlans: \n* Craftable Critters. Lets see if we can fill our worlds with a bit more of custom made life.\n* Possible more biome types, if there is a demand for them.",
+  "author" : "Xarsis (with thanks to Amber Talamasca)",
+  "description" : "My own updates to the Better Barrens - Elysium Worlds Starbound mod from Pixel Planet/Amber Talamasca",
   "friendlyName" : "Better Barren - Elysium Worlds",
-  "link" : "steam://url/CommunityFilePage/729523203",
-  "name" : "Better Barren",
-  "steamContentId" : "729523203",
-  "version" : "1.2"
+  "name" : "xar_better_barrens",
+  "version" : "1.0"
 }

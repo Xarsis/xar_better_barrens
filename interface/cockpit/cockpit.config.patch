@@ -1,72 +1,142 @@
 [
 	{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysium",
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysium",
+		"value" : 
 		[
-			"This ^magenta;elysium^reset; is perfect to build upon.",
-			"A budding ^magenta;elysium^reset; your world ripe for the taking.",
-			"It's an empty ^magenta;elysium^reset; world, but quite tempting."
+			"This ^magenta;elysium^white; world is perfect to build upon.",
+			"A budding ^magenta;elysium^white; world; your world ripe for the taking.",
+			"It's an empty ^magenta;elysium^white; world, but quite tempting."
 	  ]
 	},
 	{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysiumsnow", 
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysiumsnow", 
+		"value" : 
 		[
-			"A vast, cold, empty ^magenta;elysium^reset; world.",
-			"Pretty snow everywhere on this ^magenta;elysium^reset; world. Do you want to build a snowman?",
-			"A very cold ^magenta;elysium^reset; world, but that doesn't bother you, does it?"
+			"A vast, cold, empty ^magenta;elysium^white; world.",
+			"Pretty snow everywhere on this ^magenta;elysium^white; world. Do you want to build a snowman?",
+			"A very cold ^magenta;elysium^white; world, but that doesn't bother you, does it?"
 		]
 	},	
 	{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysiummidnight",
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysiummidnight",
+		"value" : 
 		[
-			"Deep into the darkness peering, long I stood there, wondering fearing. An ^magenta;elysium^reset; world plunged into eternal darkness.",
-			"An ^magenta;elysium^reset; world where silence and darkness reign.",
-			"This ^magenta;elysium^reset; world is the perfect place to hide in shadows. Not that a respectable person like yourself would need to hide of course."
+			"Deep into the darkness peering, long I stood there, wondering fearing. An ^magenta;elysium^white; world plunged into eternal darkness.",
+			"An ^magenta;elysium^white; world where silence and darkness reign.",
+			"This ^magenta;elysium^white; world is the perfect place to hide in shadows. Not that a respectable person like yourself would need to hide, of course."
 		]
 	},
 		{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysiumearth",
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysiumearth",
+		"value" : 
 		[
-			"The habitants of this ^magenta;elysium^reset; world seem eternally out of reach.",
-			"An ^magenta;elysium^reset; world bustling with activity in the background",
-			"This ^magenta;elysium^reset; world is already build on. Yet always out of reach"
+			"The habitants of this ^magenta;elysium^white; world seem eternally out of reach.",
+			"An ^magenta;elysium^white; world bustling with activity in the background",
+			"This ^magenta;elysium^white; world is already build on... yet always out of reach."
 		]
 	},
 	{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysiumscorchedcity",
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysiumscorchedcity",
+		"value" : 
 		[
-			"Something terrible happened at this ^magenta;elysium^reset; world. It has since been abandoned.",
-			"Noone knows what happened to this ^magenta;elysium^reset; world.",
-			"Where did all the people of this ^magenta;elysium^reset; world go, and maybe more important, why did they leave?"
+			"Something terrible happened at this ^magenta;elysium^white; world. It has since been abandoned.",
+			"Noone knows what happened to this ^magenta;elysium^white; world.",
+			"Where did all the people of this ^magenta;elysium^white; world go, and maybe more importantly, why did they leave?"
 		]
 	},
 	{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysiumocean",
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysiumocean",
+		"value" : 
 		[
-			"A very very very wet ^magenta;elysium^reset; world.",
-			"It's not smart to visit this ^magenta;elysium^reset; world if you can't swim",
-			"Water, waves, currents, depths, wetness, This ^magenta;elysium^reset; world has it all"
+			"A very, very, very wet ^magenta;elysium^white; world.",
+			"It's not smart to visit this ^magenta;elysium^white; world if you can't swim",
+			"Water, waves, currents, depths, wetness... This ^magenta;elysium^white; world has it all"
 		]
 	},
 	{
-		"op":"add",
-		"path":"/planetTypeToDescription/elysiumvolcanic",
-		"value": 
+		"op" : "add",
+		"path" : "/visitableTypeDescription/elysiumvolcanic",
+		"value" : 
 		[
-			"You're gonna want to bring burn paste on this ^magenta;elysium^reset; world",
-			"Warning: The ^orange;orange lakes^reset; on this ^magenta;elysium^reset; world are not for swimming.",
-			"The lava has so far killed of any life at this ^magenta;elysium^reset; world. Do you feel lucky punk?"
+			"You're gonna want to bring burn paste on this ^magenta;elysium^white; world",
+			"Warning: The ^orange;orange lakes^white; on this ^magenta;elysium^white; world are not for swimming.",
+			"The lava has so far killed of any life at this ^magenta;elysium^white; world. Do you feel lucky punk?"
 		]
+	},
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysium",
+        "value" : "Elysium"
+    },
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysiumsnow",
+        "value" : "Snowy Elysium"
+    },
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysiummidnight",
+        "value" : "Dark Elysium"
+    },
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysiumearth",
+        "value" : "Elysium Earth"
+    },
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysiumscorchedcity",
+        "value" : "Deserted Elysium"
+    },
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysiumocean",
+        "value" : "Oceanic Elysium"
+    },
+    {
+        "op" : "add",
+        "path" : "/planetTypeNames/elysiumvolcanic",
+        "value" : "Volcanic Elysium"
+    },
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysium",
+		"value" : [255, 0, 255]
+	},
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysiumsnow",
+		"value" : [255, 0, 255]
+	},
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysiummidnight",
+		"value" : [255, 0, 255]
+	},
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysiumearth",
+		"value" : [255, 0, 255]
+	},
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysiumscorchedcity",
+		"value" : [255, 0, 255]
+	},
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysiumocean",
+		"value" : [255, 0, 255]
+	},
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/elysiumvolcanic",
+		"value" : [255, 0, 255]
 	}
 ]

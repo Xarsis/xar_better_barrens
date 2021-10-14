@@ -1,284 +1,279 @@
 [
   {
-    "op": "add",
-    "path": "/planetTypes/elysium",
-    "value": {
-      "threatRange": [
+    "op" : "add",
+    "path" : "/planetTypes/elysium",
+    "value" : {
+      "threatRange" : [
         1,
         1
       ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysium"],
-          "secondaryRegions": []
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysium"],
+          "secondaryRegions" : []
         },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
         },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
         },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
         },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
         },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
         }
       }
-    }
-  },
-    {
-    "op": "add",
-    "path": "/planetTypes/elysiumsnow",
-    "value": {
-      "threatRange": [
-        1,
-        1
-      ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysiumsnow"],
-          "secondaryRegions": []
-        },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
-        },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
-        }
-      }
-    }
-  },
-    {
-    "op": "add",
-    "path": "/planetTypes/elysiummidnight",
-    "value": {
-      "threatRange": [
-        1,
-        1
-      ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysiummidnight"],
-          "secondaryRegions": []
-        },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
-        },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
-        }
-      }
-    }
-  },
-  
-    {
-    "op": "add",
-    "path": "/planetTypes/elysiumvolcanic",
-    "value": {
-      "threatRange": [
-        1,
-        1
-      ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysiumvolcanic"],
-          "secondaryRegions": []
-        },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
-        },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
-        }
-      }
-    }
-  },
-    {
-    "op": "add",
-    "path": "/planetTypes/elysiumearth",
-    "value": {
-      "threatRange": [
-        1,
-        1
-      ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysiumearth"],
-          "secondaryRegions": []
-        },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
-        },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
-        }
-      }
-    }
-  },
-    {
-    "op": "add",
-    "path": "/planetTypes/elysiumocean",
-    "value": {
-      "threatRange": [
-        1,
-        1
-      ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysiumocean"],
-          "secondaryRegions": []
-        },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
-        },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
-        }
-      }
-    }
-  },
-    {
-    "op": "add",
-    "path": "/planetTypes/elysiumscorchedcity",
-    "value": {
-      "threatRange": [
-        1,
-        1
-      ],
-      "layers": {
-        "surface": {
-          "primaryRegion": ["elysiumscorchedcity"],
-          "secondaryRegions": []
-        },
-        "subsurface": {
-          "primaryRegion": ["elysiumunderground"]
-        },
-        "underground1": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground2": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "underground3": {
-          "primaryRegion": ["elysiumunderground"],
-          "secondaryRegions": []
-        },
-        "core": {
-          "primaryRegion": ["elysiumunderground"]
-        }
-      }
-    }
-  },
-  
-  
-  
-  {
-    "op": "add",
-    "path": "/regionTypes/elysium",
-    "value": {
-      "blockSelector": ["remixedMildSurface"],
-      "caveLiquid": ["water"],
-      "fgCaveSelector": ["empty"],
-      "bgCaveSelector": ["empty"],
-      "biome": [[0,["elysium"]]]
     }
   },
   {
-    "op": "add",
-    "path": "/regionTypes/elysiumsnow",
-    "value": {
-      "blockSelector": ["remixedMildSurface"],
-      "caveLiquid": ["water"],
-      "fgCaveSelector": ["empty"],
-      "bgCaveSelector": ["empty"],
-      "biome": [[0,["elysiumsnow"]]]
+    "op" : "add",
+    "path" : "/planetTypes/elysiumsnow",
+    "value" : {
+      "threatRange" : [
+        1,
+        1
+      ],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysiumsnow"],
+          "secondaryRegions" : []
+        },
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
+        }
+      }
     }
   },
   {
-    "op": "add",
-    "path": "/regionTypes/elysiummidnight",
-    "value": {
-      "blockSelector": ["remixedMildSurface"],
-      "caveLiquid": ["water"],
-      "fgCaveSelector": ["empty"],
-      "bgCaveSelector": ["empty"],
-      "biome": [[0,["elysiummidnight"]]]
+    "op" : "add",
+    "path" : "/planetTypes/elysiummidnight",
+    "value" : {
+      "threatRange" : [
+        1,
+        1
+      ],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysiummidnight"],
+          "secondaryRegions" : []
+        },
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
+        }
+      }
     }
   },
-  
   {
-    "op": "add",
-    "path": "/regionTypes/elysiumocean",
-    "value": {
+    "op" : "add",
+    "path" : "/planetTypes/elysiumvolcanic",
+    "value" : {
+      "threatRange" : [
+        1,
+        1
+      ],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysiumvolcanic"],
+          "secondaryRegions" : []
+        },
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/elysiumearth",
+    "value" : {
+      "threatRange" : [
+        1,
+        1
+      ],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysiumearth"],
+          "secondaryRegions" : []
+        },
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/elysiumocean",
+    "value" : {
+      "threatRange" : [
+        1,
+        1
+      ],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysiumocean"],
+          "secondaryRegions" : []
+        },
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/planetTypes/elysiumscorchedcity",
+    "value" : {
+      "threatRange" : [
+        1,
+        1
+      ],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : ["elysiumscorchedcity"],
+          "secondaryRegions" : []
+        },
+        "subsurface" : {
+          "primaryRegion" : ["elysiumunderground"]
+        },
+        "underground1" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground2" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "underground3" : {
+          "primaryRegion" : ["elysiumunderground"],
+          "secondaryRegions" : []
+        },
+        "core" : {
+          "primaryRegion" : ["elysiumunderground"]
+        }
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/elysium",
+    "value" : {
+      "blockSelector" : ["remixedMildSurface"],
+      "caveLiquid" : ["water"],
+      "fgCaveSelector" : ["empty"],
+      "bgCaveSelector" : ["empty"],
+      "biome" : [[0,["elysium"]]]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/elysiumsnow",
+    "value" : {
+      "blockSelector" : ["remixedMildSurface"],
+      "caveLiquid" : ["water"],
+      "fgCaveSelector" : ["empty"],
+      "bgCaveSelector" : ["empty"],
+      "biome" : [[0,["elysiumsnow"]]]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/elysiummidnight",
+    "value" : {
+      "blockSelector" : ["remixedMildSurface"],
+      "caveLiquid" : ["water"],
+      "fgCaveSelector" : ["empty"],
+      "bgCaveSelector" : ["empty"],
+      "biome" : [[0,["elysiummidnight"]]]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/regionTypes/elysiumocean",
+    "value" : {
       "oceanLiquid" : [ "water" ],
       "blockSelector" : [ "remixedIslandsSurface" ],
       "fgCaveSelector" : [ "empty" ],
@@ -289,9 +284,9 @@
     }
   },
   {
-    "op": "add",
-    "path": "/regionTypes/elysiumvolcanic",
-    "value": {
+    "op" : "add",
+    "path" : "/regionTypes/elysiumvolcanic",
+    "value" : {
       "caveLiquid" : [ "lava" ],
       "caveLiquidSeedDensityRange" : [1, 3],
       "encloseLiquids" : true,
@@ -304,9 +299,9 @@
     }
   },
   {
-    "op": "add",
-    "path": "/regionTypes/elysiumearth",
-    "value": {
+    "op" : "add",
+    "path" : "/regionTypes/elysiumearth",
+    "value" : {
       "caveLiquid" : [ "water" ],
       "blockSelector" : [ "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -317,9 +312,9 @@
     }
   },
   {
-    "op": "add",
-    "path": "/regionTypes/elysiumscorchedcity",
-    "value": {
+    "op" : "add",
+    "path" : "/regionTypes/elysiumscorchedcity",
+    "value" : {
       "caveLiquid" : [ "tarliquid" ],
       "blockSelector" : [ "remixedMildSurface" ],
       "fgCaveSelector" : [ "surfaceCaves" ],
@@ -329,17 +324,15 @@
       ]
     }
   },
-  
-  
   {
-    "op": "add",
-    "path": "/regionTypes/elysiumunderground",
-    "value": {
-      "fgCaveSelector": [
+    "op" : "add",
+    "path" : "/regionTypes/elysiumunderground",
+    "value" : {
+      "fgCaveSelector" : [
         "empty"
       ],
-      "caveLiquid": [],
-      "biome": [
+      "caveLiquid" : [],
+      "biome" : [
         [
           0,
           [
