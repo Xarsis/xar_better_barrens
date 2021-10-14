@@ -1,0 +1,53 @@
+{
+  "name" : "elysiummidnight",
+  "friendlyName" : "Elysium Midnight",
+
+  "hueShiftOptions" : [0, 0, 0, 0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:midnight"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // dark peachy massacre
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [24, 38, 100, 80], [58, 42, 190, 160] ],
+      "dayColors" : [ [24, 38, 100, 80], [58, 42, 190, 160] ],
+      "eveningColors" : [ [24, 38, 100, 80], [58, 42, 190, 160] ],
+      "nightColors" : [ [24, 38, 100, 80], [58, 42, 190, 160] ],
+
+      "morningLightColor" : [40, 40, 80],
+      "dayLightColor" : [40, 40, 80],
+      "eveningLightColor" : [40, 40, 80],
+      "nightLightColor" : [40, 40, 80]
+    }
+  ],
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "ash", "rock14" ],
+  "ores" : "none",
+
+  "parallax" : "/parallax/surface/midnight.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/lava-exploration1.ogg", "/music/crystal-exploration1.ogg", "/music/crystal-exploration2.ogg", "/music/accretion-disc.ogg", "/music/arctic-exploration1.ogg", "/music/error-0xbfaf000.ogg", "/music/casiopeia.ogg", "/music/nomads.ogg", "/music/forsaken-grotto.ogg", "/music/accretion-disc.ogg", "/music/tranquility-base.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/lava-exploration1.ogg", "/music/crystal-exploration1.ogg", "/music/crystal-exploration2.ogg", "/music/accretion-disc.ogg", "/music/arctic-exploration1.ogg", "/music/error-0xbfaf000.ogg", "/music/casiopeia.ogg", "/music/nomads.ogg", "/music/forsaken-grotto.ogg", "/music/accretion-disc.ogg", "/music/tranquility-base.ogg" ]
+    }
+  }
+}

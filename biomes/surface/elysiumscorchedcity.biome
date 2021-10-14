@@ -1,0 +1,55 @@
+{
+  "name" : "elysiumscorchedcity",
+  "friendlyName" : "Elysium Scorched City",
+
+ 
+  "hueShiftOptions" : [ 0 ],
+
+  "weather" : [
+    [0, [
+      "/weather.config:scorchedcity",
+      "/weather.config:scorchedcityMeteor"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // dark peachy massacre
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [221, 119, 51], [252, 30, 0] ],
+      "dayColors" : [ [200, 52, 7], [255, 83, 52] ],
+      "eveningColors" : [ [200, 21, 0], [254, 65, 29] ],
+      "nightColors" : [ [40, 17, 17, 60], [40, 17, 17, 160] ],
+
+      "morningLightColor" : [100, 77, 0],
+      "dayLightColor" : [194, 113, 59],
+      "eveningLightColor" : [180, 0, 0],
+      "nightLightColor" : [40, 17, 17]
+    }
+  ],
+
+  "mainBlock" : "drysand",
+  "subBlocks" : [ "drydirt", "rock15", "stonerubble", "junk" ],
+  "ores" : "none",
+
+  "parallax" : "/parallax/surface/scorchedcity.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/crystal-exploration1.ogg", "/music/drosera.ogg", "/music/inviolate-loop.ogg", "/music/lava-exploration1.ogg", "/music/ultramarine.ogg", "/music/arctic-constellation1.ogg", "/music/body-electric-loop.ogg", "/music/mercury.ogg", "/music/nomads.ogg", "/music/psyche.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/crystal-exploration2.ogg", "/music/desert-exploration2.ogg", "/music/lava-exploration2.ogg", "/music/mira.ogg", "/music/tranquility-base.ogg", "/music/arctic-constellation1.ogg", "/music/body-electric-loop.ogg", "/music/mercury.ogg", "/music/nomads.ogg", "/music/casiopeia.ogg" ]
+    }
+  }
+}

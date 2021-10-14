@@ -1,0 +1,72 @@
+[
+	{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysium",
+		"value": 
+		[
+			"This ^magenta;elysium^reset; is perfect to build upon.",
+			"A budding ^magenta;elysium^reset; your world ripe for the taking.",
+			"It's an empty ^magenta;elysium^reset; world, but quite tempting."
+	  ]
+	},
+	{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysiumsnow", 
+		"value": 
+		[
+			"A vast, cold, empty ^magenta;elysium^reset; world.",
+			"Pretty snow everywhere on this ^magenta;elysium^reset; world. Do you want to build a snowman?",
+			"A very cold ^magenta;elysium^reset; world, but that doesn't bother you, does it?"
+		]
+	},	
+	{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysiummidnight",
+		"value": 
+		[
+			"Deep into the darkness peering, long I stood there, wondering fearing. An ^magenta;elysium^reset; world plunged into eternal darkness.",
+			"An ^magenta;elysium^reset; world where silence and darkness reign.",
+			"This ^magenta;elysium^reset; world is the perfect place to hide in shadows. Not that a respectable person like yourself would need to hide of course."
+		]
+	},
+		{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysiumearth",
+		"value": 
+		[
+			"The habitants of this ^magenta;elysium^reset; world seem eternally out of reach.",
+			"An ^magenta;elysium^reset; world bustling with activity in the background",
+			"This ^magenta;elysium^reset; world is already build on. Yet always out of reach"
+		]
+	},
+	{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysiumscorchedcity",
+		"value": 
+		[
+			"Something terrible happened at this ^magenta;elysium^reset; world. It has since been abandoned.",
+			"Noone knows what happened to this ^magenta;elysium^reset; world.",
+			"Where did all the people of this ^magenta;elysium^reset; world go, and maybe more important, why did they leave?"
+		]
+	},
+	{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysiumocean",
+		"value": 
+		[
+			"A very very very wet ^magenta;elysium^reset; world.",
+			"It's not smart to visit this ^magenta;elysium^reset; world if you can't swim",
+			"Water, waves, currents, depths, wetness, This ^magenta;elysium^reset; world has it all"
+		]
+	},
+	{
+		"op":"add",
+		"path":"/planetTypeToDescription/elysiumvolcanic",
+		"value": 
+		[
+			"You're gonna want to bring burn paste on this ^magenta;elysium^reset; world",
+			"Warning: The ^orange;orange lakes^reset; on this ^magenta;elysium^reset; world are not for swimming.",
+			"The lava has so far killed of any life at this ^magenta;elysium^reset; world. Do you feel lucky punk?"
+		]
+	}
+]
